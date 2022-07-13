@@ -1,0 +1,101 @@
+body{
+    background-image: url(papel.jfif);
+    color: black;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+.menu-circle {
+    width: 15px;
+    height: 15px;
+    background-color: #f96057;
+    border-radius: 50%;
+    box-shadow: 24px 0 0 0 #f8ce52, 48px 0 0 0 #5fcf65;
+    margin-right: 195px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+    margin-top: -25px;
+}
+
+
+.conteudo{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgba(239, 239, 239, 0.45);
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.topo input{
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid white;
+    outline: none;
+    font-size: 1.2rem;
+    background: white;
+    color: rgb(36, 36, 36);
+}
+
+.topo button{
+    width: 60px;
+    border-radius: 12px;
+    border: 1px solid white;
+    background: white;
+    color: black;
+    outline: none;
+}
+
+.topo button:hover{
+    background: rgb(216, 216, 216);
+    border: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+#list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list li{
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btnAcao{
+    border-radius: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: rgb(216, 216, 216);
+    color: black;
+}
+
+.btnAcao:hover{
+    background: rgb(135, 135, 135);
+}
