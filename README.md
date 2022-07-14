@@ -4,3 +4,9 @@ link do site Rodando: https://minha-lista-de-tarefa.netlify.app
   <img alt="versão 1.0 do projeto - Home" title="#lista" src="tela.png">
 </p>  
  
+ #### Tecnologias / Detalhes
+
+- JS
+- HTML/CSS
+- Git e GitHub 
+- VSCode
